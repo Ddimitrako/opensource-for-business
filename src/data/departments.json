@@ -1,0 +1,113 @@
+[
+  {
+    "id": "finance",
+    "name": "Finance & Accounting",
+    "shortName": "Finance",
+    "description": "Run the books, control cash flow, invoice customers, and support recurring revenue models.",
+    "icon": "landmark",
+    "categories": [
+      { "id": "erp-accounting", "name": "ERP & General Accounting", "description": "Company-wide ledgers, purchasing, sales, inventory, and financial reporting." },
+      { "id": "sme-accounting", "name": "SME Accounting & Invoicing", "description": "Practical bookkeeping and invoicing for smaller finance teams." },
+      { "id": "subscription-billing", "name": "Subscription & Usage Billing", "description": "Metering, subscriptions, invoices, entitlements, and payment orchestration." }
+    ]
+  },
+  {
+    "id": "hr",
+    "name": "HR & People",
+    "shortName": "HR",
+    "description": "Hire, onboard, develop, and support employees with auditable people operations.",
+    "icon": "users",
+    "categories": [
+      { "id": "hris-payroll", "name": "HRIS, Payroll & Leave", "description": "Employee records, payroll, attendance, leave, and performance." },
+      { "id": "recruiting-ats", "name": "Recruiting & ATS", "description": "Job openings, applicants, interviews, and hiring pipelines." },
+      { "id": "time-tracking", "name": "Time Tracking", "description": "Timesheets, project time, approvals, and utilization reporting." },
+      { "id": "esignatures", "name": "E-signatures", "description": "Prepare, send, sign, and audit employment documents." },
+      { "id": "learning", "name": "LMS & Training", "description": "Deliver structured employee learning and certification programs." }
+    ]
+  },
+  {
+    "id": "sales-support",
+    "name": "Sales & Customer Service",
+    "shortName": "Sales & Support",
+    "description": "Manage the revenue pipeline and deliver responsive, contextual customer support.",
+    "icon": "handshake",
+    "categories": [
+      { "id": "crm-pipeline", "name": "CRM & Pipeline", "description": "Accounts, contacts, opportunities, activity, and revenue forecasting." },
+      { "id": "appointment-scheduling", "name": "Appointment Scheduling", "description": "Self-service booking and calendar coordination." },
+      { "id": "proposals-signatures", "name": "Proposals & Signatures", "description": "Close deals and collect verifiable signatures." },
+      { "id": "customer-support", "name": "Omnichannel Support", "description": "Shared inboxes, chat, tickets, automation, and service levels." },
+      { "id": "knowledge-base", "name": "Knowledge Base", "description": "Customer and internal support documentation." },
+      { "id": "customer-feedback", "name": "Customer Feedback", "description": "Collect, prioritize, and communicate product feedback." }
+    ]
+  },
+  {
+    "id": "marketing",
+    "name": "Marketing & Growth",
+    "shortName": "Marketing",
+    "description": "Publish content, automate campaigns, reach audiences, and understand growth.",
+    "icon": "megaphone",
+    "categories": [
+      { "id": "marketing-automation", "name": "Marketing Automation", "description": "Campaign journeys, segmentation, lead nurturing, and scoring." },
+      { "id": "email-newsletters", "name": "Email & Newsletters", "description": "High-volume newsletters and subscriber management." },
+      { "id": "cms-content", "name": "CMS & Content", "description": "Create and distribute web content through modern publishing stacks." },
+      { "id": "social-scheduling", "name": "Social Scheduling", "description": "Plan, approve, and publish social media content." },
+      { "id": "web-product-analytics", "name": "Web & Product Analytics", "description": "Privacy-aware traffic, conversion, and product behavior analytics." }
+    ]
+  },
+  {
+    "id": "data",
+    "name": "Data & Analytics",
+    "shortName": "Data",
+    "description": "Build trusted data flows and turn operational data into decisions.",
+    "icon": "chart",
+    "categories": [
+      { "id": "bi-dashboards", "name": "BI & Dashboards", "description": "Self-service analysis, semantic metrics, and executive dashboards." },
+      { "id": "elt-orchestration", "name": "ELT & Orchestration", "description": "Extract, load, transform, schedule, and observe data workflows." },
+      { "id": "data-governance", "name": "Data Catalog & Governance", "description": "Discovery, lineage, ownership, quality, and shared data context." },
+      { "id": "analytical-database", "name": "Analytical Database", "description": "High-performance storage and queries for analytical workloads." }
+    ]
+  },
+  {
+    "id": "operations",
+    "name": "Procurement & Operations",
+    "shortName": "Operations",
+    "description": "Control purchasing, inventory, assets, documents, and operational infrastructure.",
+    "icon": "package",
+    "categories": [
+      { "id": "procurement-p2p", "name": "Procurement / P2P", "description": "Suppliers, requests, purchase orders, receipts, and payables." },
+      { "id": "inventory-wms", "name": "Inventory & WMS", "description": "Stock, parts, warehouses, movements, and replenishment." },
+      { "id": "asset-management", "name": "Asset Management", "description": "Track physical and IT assets across their lifecycle." },
+      { "id": "document-management", "name": "Document Management", "description": "Capture, classify, search, retain, and retrieve documents." },
+      { "id": "infrastructure-inventory", "name": "Infrastructure Inventory", "description": "Model network and infrastructure assets as a source of truth." }
+    ]
+  },
+  {
+    "id": "it-security",
+    "name": "IT & Security",
+    "shortName": "IT & Security",
+    "description": "Secure identities, operate infrastructure, and give engineering teams dependable platforms.",
+    "icon": "shield",
+    "categories": [
+      { "id": "iam-sso", "name": "IAM & SSO", "description": "Identity federation, authentication, authorization, and access policy." },
+      { "id": "observability", "name": "Observability", "description": "Metrics, logs, traces, dashboards, and alerting." },
+      { "id": "siem-xdr", "name": "SIEM / XDR", "description": "Threat detection, endpoint telemetry, compliance, and response." },
+      { "id": "itsm-assets", "name": "ITSM & Assets", "description": "Service desk, CMDB, inventory, and asset workflows." },
+      { "id": "network-ipam", "name": "Network / IPAM", "description": "Network source of truth, IP addresses, racks, devices, and circuits." },
+      { "id": "source-control-ci", "name": "Source Control & CI", "description": "Host code and automate reliable software delivery." }
+    ]
+  },
+  {
+    "id": "management",
+    "name": "Management & Collaboration",
+    "shortName": "Management",
+    "description": "Coordinate teams, projects, decisions, knowledge, and secure communication.",
+    "icon": "briefcase",
+    "categories": [
+      { "id": "team-messaging", "name": "Team Messaging", "description": "Secure channels, direct messages, integrations, and incident collaboration." },
+      { "id": "project-management", "name": "Project Management", "description": "Plan work, track delivery, manage roadmaps, and report progress." },
+      { "id": "file-collaboration", "name": "File Collaboration", "description": "Private file sync, sharing, calendars, and collaborative workspaces." },
+      { "id": "knowledge-management", "name": "Knowledge Management", "description": "Create durable, searchable team knowledge." },
+      { "id": "video-meetings", "name": "Video Meetings", "description": "Self-hosted video conferencing and virtual meetings." }
+    ]
+  }
+]
